@@ -1,0 +1,5 @@
+    .img_border img{
+        margin-top: 10px;
+        border: 2px solid #ddd;
+        padding: 2px;
+    }

@@ -1,0 +1,12 @@
+# Ignore system files.
+._*
+.DS_Store
+.vscode
+*.sass-cache*
+*.scssc
+
+# Ignore node modules.
+node_modules
+
+# Ignore files and directories.
+TODO.txt

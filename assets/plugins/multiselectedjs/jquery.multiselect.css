@@ -1,0 +1,13 @@
+
+.fMultiSelect {
+	min-height:50px;
+}
+
+
+#mtable2 select{width:200px !important; height:200px !important;}
+#mtable2 select#demo {
+    width:200px !important;
+    height:200px !important;
+}
+
+

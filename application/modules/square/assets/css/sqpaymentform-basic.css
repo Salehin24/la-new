@@ -1,0 +1,56 @@
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#sq-ccbox {
+  float:left;
+  margin:5px;
+  padding:10px;
+  vertical-align: top;
+  font-weight: bold;
+}
+
+#nonce-form {
+  padding: 25px;
+  /*text-align: right;*/
+}
+
+.sq-input {
+  display: inline-block;
+  border: 1px solid #E0E2E3;
+  border-radius: 4px;
+}
+
+.sq-input--focus {
+  border: 1px solid #4A90E2;
+  box-shadow: 0 0 2px 0 rgba(0,0,0,0.10), 0 2px 2px 0 rgba(0,0,0,0.10);
+}
+
+.sq-input--error {
+  border: 1px solid red;
+}
+
+.label {
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 24px;
+  padding-right: 16px;
+}
+
+.button-credit-card {
+  display: block;
+  width: 100%;
+  height: 56px;
+  padding: 15px;
+  margin-top: 10px;
+  background: #0EB00E;
+  box-shadow: 0 0 2px 0 rgba(0,0,0,0.10), 0 2px 2px 0 rgba(0,0,0,0.10);
+  border-radius: 4px;
+  cursor:pointer;
+  color: #FFFFFF;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  outline: none;
+}

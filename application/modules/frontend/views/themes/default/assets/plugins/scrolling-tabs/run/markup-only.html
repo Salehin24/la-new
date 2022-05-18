@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="../dist/jquery.bs4-scrolling-tabs.css">
+
+    <style>
+      .left-side {
+        width: 50%;
+      }
+      .right-side {
+        width: 50%;
+      }
+      .st-demo-header {
+        background-color: #666666;
+        color: white;
+        font-size: 24px;
+        padding: 8px 24px;
+      }
+    </style>
+  </head>
+
+  <body>
+
+  <div class="st-demo-header">bootstrap4-scrolling-tabs Demo - Markup Only</div>
+
+  <!-- Nav tabs -->
+  <ul class="nav nav-tabs" role="tablist" style="display: none">
+    <li class="nav-item"><a class="nav-link active" href="#tab1" role="tab" data-toggle="tab">Tab Number 1</a></li>
+    <li class="nav-item"><a class="nav-link" href="#tab2" role="tab" data-toggle="tab">Tab Number 2</a></li>
+    <li class="nav-item dropdown">
+      <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Tab 3 Dropdown<span class=caret></span></a>
+      <ul class="dropdown-menu">
+        <li><a class="nav-link" href="#tab3a" role="tab" data-toggle="tab">Tab 3a</a></li>
+        <li><a class="nav-link" href="#tab3b" role="tab" data-toggle="tab">Tab 3b</a></li>
+        <li><a class="nav-link" href="#tab3c" role="tab" data-toggle="tab">Tab 3c</a></li>
+        <li role="separator" class="divider"></li>
+        <li><a class="nav-link" href="#">Separated link</a></li>
+      </ul>
+    </li>
+    <li class="nav-item"><a class="nav-link" href="#tab4" role="tab" data-toggle="tab">Tab Number 4</a></li>
+    <li class="nav-item"><a class="nav-link" href="#tab5" role="tab" data-toggle="tab">Tab Number 5</a></li>
+    <li class="nav-item"><a class="nav-link" href="#tab6" role="tab" data-toggle="tab">Tab Number 6</a></li>
+    <li class="nav-item"><a class="nav-link" href="#tab7" role="tab" data-toggle="tab">Tab Number 7</a></li>
+    <li class="nav-item"><a class="nav-link" href="#tab8" role="tab" data-toggle="tab">Tab Number 8</a></li>
+    <li class="nav-item dropdown">
+      <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Tab 9 Dropdown<span class=caret></span></a>
+      <div class="dropdown-menu">
+        <a class="dropdown-item nav-link" href="#tab9a" role="tab" data-toggle="tab">Tab 9a</a>
+        <a class="dropdown-item nav-link" href="#tab9b" role="tab" data-toggle="tab">Tab 9b</a>
+        <a class="dropdown-item nav-link" href="#tab9c" role="tab" data-toggle="tab">Tab 9c</a>
+      </div>
+    </li>
+    <li class="nav-item"><a class="nav-link" href="#tab10" role="tab" data-toggle="tab">Tab Number 10</a></li>
+    <li class="nav-item"><a class="nav-link" href="#tab11" role="tab" data-toggle="tab">Tab Number 11</a></li>
+    <li class="nav-item"><a class="nav-link" href="#tab12" role="tab" data-toggle="tab">Tab Number 12</a></li>
+    <li class="nav-item"><a class="nav-link" href="#tab13" role="tab" data-toggle="tab">Tab Number 13</a></li>
+    <li class="nav-item"><a class="nav-link" href="#tab14" role="tab" data-toggle="tab">Tab Number 14</a></li>
+    <li class="nav-item"><a class="nav-link" href="#tab15" role="tab" data-toggle="tab">Tab Number 15</a></li>
+    <li class="nav-item"><a class="nav-link" href="#tab16" role="tab" data-toggle="tab">Tab Number 16</a></li>
+  </ul>
+
+  <!-- Tab panes -->
+  <div class="tab-content" style="display: none">
+    <div role="tabpanel" class="tab-pane fade show active" id="tab1">Tab 1 content...</div>
+    <div role="tabpanel" class="tab-pane fade show" id="tab2">Tab 2 content...</div>
+    <div role="tabpanel" class="tab-pane fade show" id="tab3">Tab 3 content...</div>
+    <div role="tabpanel" class="tab-pane fade show" id="tab3a">Tab 3a content...</div>
+    <div role="tabpanel" class="tab-pane fade show" id="tab3b">Tab 3b content...</div>
+    <div role="tabpanel" class="tab-pane fade show" id="tab3c">Tab 3c content...</div>
+    <div role="tabpanel" class="tab-pane fade show" id="tab4">Tab 4 content...</div>
+    <div role="tabpanel" class="tab-pane fade show" id="tab5">Tab 5 content...</div>
+    <div role="tabpanel" class="tab-pane fade show" id="tab6">Tab 6 content...</div>
+    <div role="tabpanel" class="tab-pane fade show" id="tab7">Tab 7 content...</div>
+    <div role="tabpanel" class="tab-pane fade show" id="tab8">Tab 8 content...</div>
+    <div role="tabpanel" class="tab-pane fade show" id="tab9">Tab 9 content...</div>
+    <div role="tabpanel" class="tab-pane fade show" id="tab9a">Tab 9a content...</div>
+    <div role="tabpanel" class="tab-pane fade show" id="tab9b">Tab 9b content...</div>
+    <div role="tabpanel" class="tab-pane fade show" id="tab9c">Tab 9c content...</div>
+    <div role="tabpanel" class="tab-pane fade show" id="tab10">Tab 10 content...</div>
+    <div role="tabpanel" class="tab-pane fade show" id="tab11">Tab 11 content...</div>
+    <div role="tabpanel" class="tab-pane fade show" id="tab12">Tab 12 content...</div>
+    <div role="tabpanel" class="tab-pane fade show" id="tab13">Tab 13 content...</div>
+    <div role="tabpanel" class="tab-pane fade show" id="tab14">Tab 14 content...</div>
+    <div role="tabpanel" class="tab-pane fade show" id="tab15">Tab 15 content...</div>
+    <div role="tabpanel" class="tab-pane fade show" id="tab16">Tab 16 content...</div>
+  </div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+  <script src="../dist/jquery.bs4-scrolling-tabs.js"></script>
+  <script>
+    ;(function($) {
+      'use strict';
+      $(activate);
+      function activate() {
+        $('.nav-tabs').scrollingTabs({
+          enableSwiping: true,
+          scrollToTabEdge: true,
+          disableScrollArrowsOnFullyScrolled: true
+        })
+        .on('ready.scrtabs', function() {
+          $('.tab-content').show();
+        });
+      }
+    }(jQuery));
+  </script>
+
+</body>
+
+</html>

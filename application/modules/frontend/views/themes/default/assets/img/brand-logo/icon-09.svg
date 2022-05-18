@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) --><svg height="595.27557pt" id="svg2" inkscape:version="0.43" sodipodi:docbase="C:\Code\Inkscape" sodipodi:docname="karate.svg" sodipodi:version="0.32" version="1.0" width="841.88977pt" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://web.resource.org/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:sodipodi="http://inkscape.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:svg="http://www.w3.org/2000/svg">
+  <metadata>
+    <rdf:RDF xmlns:cc="http://web.resource.org/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <cc:Work rdf:about="">
+        <dc:title>Karate Logo</dc:title>
+        <dc:description>Karate Logo</dc:description>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>fitness</rdf:li>
+            <rdf:li>people</rdf:li>
+            <rdf:li>philosophy</rdf:li>
+            <rdf:li>japan</rdf:li>
+            <rdf:li>eastern</rdf:li>
+            <rdf:li>sport</rdf:li>
+            <rdf:li>martial arts</rdf:li>
+            <rdf:li>karate</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+        <dc:publisher>
+          <cc:Agent rdf:about="http://www.loanedgenius.com">
+            <dc:title>Loaned Genius</dc:title>
+          </cc:Agent>
+        </dc:publisher>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Elliott Bignell, HeadCase architect</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:rights>
+          <cc:Agent>
+            <dc:title>Elliott Bignell, HeadCase architect</dc:title>
+          </cc:Agent>
+        </dc:rights>
+        <dc:date></dc:date>
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+        <cc:license rdf:resource="http://web.resource.org/cc/PublicDomain"/>
+        <dc:language>en</dc:language>
+      </cc:Work>
+      <cc:License rdf:about="http://web.resource.org/cc/PublicDomain">
+        <cc:permits rdf:resource="http://web.resource.org/cc/Reproduction"/>
+        <cc:permits rdf:resource="http://web.resource.org/cc/Distribution"/>
+        <cc:permits rdf:resource="http://web.resource.org/cc/DerivativeWorks"/>
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+  <defs id="defs4"/>
+  <sodipodi:namedview bordercolor="#666666" borderopacity="1.0" id="base" inkscape:current-layer="layer1" inkscape:cx="375" inkscape:cy="346.12461" inkscape:document-units="px" inkscape:pageopacity="0.0" inkscape:pageshadow="2" inkscape:window-height="540" inkscape:window-width="749" inkscape:window-x="44" inkscape:window-y="44" inkscape:zoom="0.35" pagecolor="#ffffff"/>
+  <g id="layer1" inkscape:groupmode="layer" inkscape:label="Layer 1">
+    <path d="M 695.72435,618.07647 C 596.39688,305.55451 317.03461,181.84115 121.45081,160.93361 C 110.29685,159.74128 546.9397,299.23504 576.25149,618.07648 L 695.72435,618.07647 z " id="path4964" sodipodi:nodetypes="cscc" style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.23238778px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"/>
+    <path d="M 422.8052,239.52111 C 734.13838,259.05487 737.04914,370.38928 667.36364,420.7821 C 597.95043,470.97802 659.3112,468.00718 683.2263,455.60758 C 893.17421,346.75287 642.55609,201.66017 422.8052,239.52111 z " id="path6738" sodipodi:nodetypes="cssc" style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.86772889px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"/>
+    <path d="M 614.28573 292.36218 A 72.85714 71.428574 0 1 1  468.57145,292.36218 A 72.85714 71.428574 0 1 1  614.28573 292.36218 z" id="path7617" sodipodi:cx="541.42859" sodipodi:cy="292.36218" sodipodi:rx="72.85714" sodipodi:ry="71.428574" sodipodi:type="arc" style="fill:#000000;fill-opacity:1" transform="matrix(0.980392,0,0,0.7,272.0448,66.28009)"/>
+  </g>
+</svg>

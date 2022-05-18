@@ -1,0 +1,84 @@
+body{
+
+}
+.btn-success-soft {
+    color: #28a745;
+    background-color: rgba(40, 167, 69, 0.1);
+    border-color: rgba(40, 167, 69, 0.3);
+}  
+.btn-danger-soft {
+    color: #dc3545;
+    background-color: rgba(220, 53, 69, 0.2);
+    border-color: rgba(220, 53, 69, 0.4);
+}  
+.btn-info-soft {
+    color: #17a2b8;
+    background-color: rgba(23, 162, 184, 0.2);
+    border-color: rgba(23, 162, 184, 0.4);
+}  
+
+/*=========== its for join live page ================*/
+.navbar-inverse {
+    background-color: #313131;
+    border-color: #404142;
+}
+.navbar-header h4 {
+    margin: 0;
+    padding: 15px 15px;
+    color: #c4c2c2;
+}
+.navbar-right h5 {
+    margin: 0;
+    padding: 9px 5px;
+    color: #c4c2c2;
+}
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form{
+    border-color: transparent;
+}
+/*=========== its close  for join live page ================*/
+
+.custom-btn{
+    border: 2px solid #07477d;
+    text-align: center;
+    font-weight: 700;
+    padding: 6px 10px 8px 10px !important;
+}
+.custom-success-btn{
+    color: #fff;
+    background-color: #198754;
+    border-color: #198754;
+    padding: 8px;
+}
+.custom-success-soft {
+    color: #28a745;
+    background-color: rgba(40, 167, 69, 0.1);
+    border-color: rgba(40, 167, 69, 0.3);
+    padding: 6px 20px;
+    border: 1px solid;
+}
+.custom-danger-btn{
+    color: #fff;
+    background-color: #dc3545;
+    border-color: #dc3545;
+    padding: 8px;
+}
+.custom-warning-btn{
+    color: #fff;
+    background-color: #ffc107;
+    border-color: #ffc107;
+    padding: 8px;
+}
+.custom-info-soft{
+    color: #17a2b8;
+    background-color: rgba(23, 162, 184, 0.2);
+    border-color: rgba(23, 162, 184, 0.4);
+    padding: 6px 20px;
+    border: 1px solid;
+}
+.custom-danger-soft{
+    color: #dc3545;
+    background-color: rgba(220, 53, 69, 0.2);
+    border-color: rgba(220, 53, 69, 0.4);
+    padding: 6px 20px;
+    border: 1px solid;
+}

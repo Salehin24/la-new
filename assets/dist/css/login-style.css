@@ -1,0 +1,59 @@
+body{
+    width: 80%;
+    margin: 0 auto;
+}
+.welcome_header{
+    background: #96588A;
+    height: 80px;
+}
+.welcome_header h3{
+    text-align: center;
+    color: #fff;
+    padding: 25px 0px;
+    font-size: 25px;
+}
+.welcome_description{
+    min-height: 100px;
+    text-align: justify;
+    margin: 20px 0px;
+}
+.welcome_description p{
+    font-size: 16px;
+}
+.order_date{
+
+}
+.order_no{
+    float: right;
+}
+.order_info{
+
+}
+table {
+    border-collapse: collapse;
+}
+
+table, td, th {
+    border: 1px solid black;
+}
+.payment{
+    margin-bottom: 270px;
+}
+.payment_info h4, .payment_status h4{
+    background: #DDDDDD;
+    height: 30px;
+    padding: 8px 0 0 15px;
+    width: 78%;
+}
+.order_info table{
+    width: 90%;
+}
+.payment_info table,.payment_status table{
+    width: 80%;
+}
+.order_info thead, .payment_info thead,.payment_status thead{
+    background: #DDDDDD;
+}
+.order_info tr,.payment_info tr, .payment_status tr{
+    height: 40px;
+}

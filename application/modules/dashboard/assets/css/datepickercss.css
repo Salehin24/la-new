@@ -1,0 +1,40 @@
+
+.datepicker.dropdown-menu {
+    min-width: 15rem;
+    padding: 8px;
+    font-size: 14px;
+}
+.datepicker table {
+    width: 100%;
+}
+.datepicker td, .datepicker th {
+    width: 28px;
+    height: 28px;
+}
+.datepicker table tr td.today,
+.datepicker table tr td.today.disabled,
+.datepicker table tr td.today.disabled:hover,
+.datepicker table tr td.today:hover,
+.datepicker table tr td.today.active,
+.datepicker table tr td.today.disabled, 
+.datepicker table tr td.today.disabled.active,
+.datepicker table tr td.today.disabled.disabled,
+.datepicker table tr td.today.disabled:active,
+.datepicker table tr td.today.disabled:hover,
+.datepicker table tr td.today.disabled:hover.active,
+.datepicker table tr td.today.disabled:hover.disabled,
+.datepicker table tr td.today.disabled:hover:active,
+.datepicker table tr td.today.disabled:hover:hover,
+.datepicker table tr td.today.disabled:hover[disabled],
+.datepicker table tr td.today.disabled[disabled],
+.datepicker table tr td.today:active,
+.datepicker table tr td.today:hover,
+.datepicker table tr td.today:hover.active,
+.datepicker table tr td.today:hover.disabled,
+.datepicker table tr td.today:hover:active,
+.datepicker table tr td.today:hover:hover,
+.datepicker table tr td.today:hover[disabled],
+.datepicker table tr td.today[disabled]{
+    background: #37a000;
+    color: #fff;
+}

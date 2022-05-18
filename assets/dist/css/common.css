@@ -1,0 +1,32 @@
+/* ---------------------------------------------------
+   FIXED login as enterprise notification
+----------------------------------------------------- */
+
+
+.msg-text{
+    background-color: #1b5fa0;
+    color: #fff;
+    text-align: center;
+    padding: 5px 15px;
+    border-radius: 5px;
+}
+
+@media (min-width: 768px){
+    .fixed .navbar-custom-menu.navbar {
+        position: fixed;
+        top: 0;
+        left: 250px;
+        right: 0;
+        display: flex;
+        justify-content: space-between;
+    }
+}
+/* ---------------------------------------------------
+   FIXED login as enterprise notification
+----------------------------------------------------- */
+/* 
+.btn-secondary:hover {
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+} */

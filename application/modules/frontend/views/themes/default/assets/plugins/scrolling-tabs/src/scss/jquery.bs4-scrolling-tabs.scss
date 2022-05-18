@@ -1,0 +1,121 @@
+// Tabs height
+$scrtabs-tabs-height: 42px !default;
+
+// Border color (bootstrap lt gray)
+$scrtabs-border-color: 1px solid rgb(221, 221, 221) !default;
+
+// Foreground color (bootstrap blue)
+$scrtabs-foreground-color: rgb(0, 123, 255) !default; // #007bff
+$scrtabs-foreground-color-hover: rgb(0, 86, 179) !default; // #0056b3
+
+// Background color on hover (bootstrap gray)
+$scrtabs-background-color-hover: rgb(238, 238, 238) !default;
+
+.scrtabs-tab-container * {
+  box-sizing: border-box;
+}
+
+.scrtabs-tab-container {
+  height: $scrtabs-tabs-height;
+  .tab-content {
+    clear: left;
+  }
+}
+
+.scrtabs-tab-container .scrtabs-tabs-movable-container > .navbar-nav {
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+.scrtabs-tabs-fixed-container {
+  float: left;
+  height: $scrtabs-tabs-height;
+  overflow: hidden;
+  width: 100%;
+}
+
+.scrtabs-tabs-movable-container {
+  position: relative;
+  transition: transform 2s;
+
+  .tab-content {
+    display: none;
+  }
+}
+
+// override user agent padding-start (which translates to padding-right for
+// RTL sites) of 40px applied to <ul> elements (Bootstrap already overrides
+// it for LTR sites by setting padding-left to 0)
+.scrtabs-tab-container.scrtabs-rtl .scrtabs-tabs-movable-container > ul.nav-tabs {
+  padding-right: 0;
+}
+
+.scrtabs-tab-scroll-arrow {
+  border: $scrtabs-border-color;
+  border-top: none;
+  cursor: pointer;
+  display: none;
+  float: left;
+  font-size: 12px;
+  height: 100%;
+  padding-left: 0.5em;
+  padding-top: 1.3em;
+  width: 20px;
+  &:hover {
+    background-color: $scrtabs-background-color-hover;
+  }
+}
+
+.scrtabs-tab-scroll-arrow > span {
+  border-right: 3px solid $scrtabs-foreground-color;
+  border-bottom: 3px solid $scrtabs-foreground-color;
+  display: block;
+  width: 8px;
+  height: 8px;
+  transform: rotate(-45deg);
+
+  &:hover {
+    border-right-color: $scrtabs-foreground-color-hover;
+    border-bottom-color: $scrtabs-foreground-color-hover;
+  }
+}
+
+.scrtabs-tab-scroll-arrow-left > span {
+  transform: rotate(135deg);
+}
+
+.scrtabs-tab-scroll-arrow-right {
+  padding-left: 0.4em;
+}
+
+.scrtabs-tab-scroll-arrow,
+.scrtabs-tab-scroll-arrow .scrtabs-click-target {
+  cursor: pointer;
+}
+
+.scrtabs-tab-scroll-arrow.scrtabs-with-click-target {
+  cursor: default;
+}
+
+.scrtabs-tab-scroll-arrow.scrtabs-disable,
+.scrtabs-tab-scroll-arrow.scrtabs-disable .scrtabs-click-target {
+  color: #ddd;
+  cursor: default;
+
+  > span {
+    border-color: #ddd;
+  }
+}
+
+.scrtabs-tab-scroll-arrow.scrtabs-disable:hover {
+  background-color: initial;
+}
+
+.scrtabs-tabs-fixed-container ul.nav-tabs > li {
+  white-space: nowrap;
+}
+
+.nav-tabs .dropdown-menu {
+  border-top-color: transparent;
+  margin-top: 0;
+}

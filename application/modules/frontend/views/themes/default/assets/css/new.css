@@ -1,0 +1,292 @@
+.font-open {
+	font-family: 'Open Sans', sans-serif;
+}
+
+.bg_blue_pro {
+	background: #DDECFF;
+}
+
+.fs-11 {
+	font-size: 11px;
+}
+
+.lh-15 {
+	line-height: 15px;
+}
+
+.lh-18 {
+	line-height: 18px;
+}
+
+.lh-20 {
+	line-height: 20px;
+}
+
+.w_99 {
+	width: 99px;
+}
+
+.ms-8 {
+	margin-left: 8rem !important;
+}
+
+.text-sky {
+	color: #0068BD;
+}
+
+.bordered-zone {
+	border: 1px solid #07477D;
+}
+
+.rec_text {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 9px;
+	line-height: 12px;
+	text-align: center;
+}
+
+.selectFile label {
+	background: #07477D;
+	border: 1px solid #000000;
+	box-sizing: border-box;
+	border-radius: 2px;
+	color: #fff;
+}
+
+.text-black {
+	color: #000;
+}
+
+.title-label {
+	font-style: normal;
+	font-weight: bold;
+	font-size: 11px;
+	line-height: 15px;
+	color: #000;
+}
+
+.title-label span {
+	font-weight: 400;
+}
+
+.pro_add_form .input-box {
+	background: #F5F9FF;
+	border: 2px solid #CED4DA;
+	box-sizing: border-box;
+	border-radius: 4px;
+	height: 35px;
+	width: 100%;
+}
+
+.pro_add_form .input-box {
+	outline: none;
+	box-shadow: none;
+}
+
+.pro_add_form .input-box.date-box {
+	width: calc(100% - 325px);
+}
+
+.pro_add_form .input-box.pro-sub {
+	width: calc(100% - 335px);
+}
+
+.place_black {
+	font-weight: 600;
+	font-size: 12px;
+	line-height: 16px;
+}
+
+.place_black::placeholder {
+	color: #000;
+}
+
+
+.btn-publish,
+.btn-draft,
+.btn-del {
+	border-radius: 2px;
+	color: #fff;
+	height: 35px;
+	margin: 0 5px;
+	min-width: 85px;
+}
+
+.btn-del {
+	background: #FF0000;
+}
+
+.btn-draft {
+	background: linear-gradient(0deg, #198754, #198754), #198754;
+}
+
+.btn-publish {
+	background: linear-gradient(0deg, #07477D, #07477D), #198754;
+}
+
+.btn-subcourse {
+	background: #198754;
+	border-radius: 2px;
+	font-weight: bold;
+	font-size: 11px;
+	line-height: 15px;
+	color: #FFFFFF;
+}
+
+.title-thumba {
+	font-weight: bold;
+	font-size: 11px;
+	line-height: 15px;
+	text-align: center;
+	color: #000000;
+}
+
+.btn-dest {
+	background: #CED4DA;
+	border-radius: 2px;
+	font-weight: bold;
+	font-size: 11px;
+	line-height: 21px;
+	color: #ABABAB;
+}
+
+.pa_title {
+	font-style: normal;
+	font-weight: bold;
+	font-size: 11px;
+	line-height: 15px;
+	color: #000000;
+}
+
+.courseTypeselect {
+	font-weight: 600;
+	font-size: 12px;
+	line-height: 16px;
+	color: #000000;
+	padding: 0 15px;
+}
+
+.breadcrumb-item a,
+.breadcrumb-item.active,
+.breadcrumb-item {
+	font-weight: bold;
+	font-size: 13px;
+	line-height: 18px;
+	color: #000000;
+}
+
+.btn-create {
+	background: #113B6C;
+	border-radius: 4px;
+	min-width: 170px;
+	line-height: 27px;
+	padding: 0;
+}
+
+.title-one {
+	font-weight: bold;
+	font-size: 15px;
+	line-height: 20px;
+	color: #000000;
+}
+
+.subtitle-one {
+	font-weight: bold;
+	font-size: 12px;
+	line-height: 16px;
+	color: #8F95B8;
+}
+
+.subtitle-two {
+	font-weight: bold;
+	font-size: 13px;
+	line-height: 18px;
+	color: #0068BD;
+}
+
+.iconicText {
+	line-height: 18px;
+	color: #8F95B8;
+}
+
+.skills_part{
+	margin-left: 8rem;
+}
+
+.polyshape {
+	-webkit-clip-path: polygon(100% 0, 94% 50%, 100% 100%, 0 100%, 0 0);
+	clip-path: polygon(100% 0, 94% 50%, 100% 100%, 0 100%, 0 0);
+	background: #0068BD;
+	border-radius: 1px;
+	font-weight: bold;
+	font-size: 13px;
+	line-height: 22px;
+	color: #FFFFFF;
+	width: 140px;
+	height: 21px;
+	padding-left: 10px;
+}
+
+.nav-pagination {
+    font-size: 18px;
+    line-height: 1;
+    font-weight: 400;
+    -webkit-text-size-adjust: 100%;
+    margin: 1em auto;
+    transition: font-size .2s ease-in-out;
+}
+
+.nav-pagination ul {
+	list-style-type: none;
+	display: inline;
+	font-size: 100%;
+	margin: 0;
+	padding: .5em;
+}
+
+.nav-pagination ul li {
+	display: inline-block;
+	font-size: 100%;
+	width: auto;
+	border-radius: 3px;
+}
+
+.nav-pagination > a {
+	font-size: 140%;
+}
+
+.nav-pagination a {
+	color: #777;
+	font-size: 100%;
+	padding: .5em;
+}
+
+.nav-pagination a:focus,
+.nav-pagination a:hover {
+	color: #f60;
+}
+
+.nav-pagination li.current a{
+	color: #07477d
+}
+
+/* Disabled & Hidden Styles */
+.nav-pagination .disabled,
+.nav-pagination [hidden],
+.nav-pagination [disabled] {
+	opacity: .5;
+	pointer-events: none;
+}
+
+@media (max-width: 767px) {
+
+	.pro_add_form .input-box.pro-sub,
+	.pro_add_form .input-box.date-box {
+		width: 100%;
+	}
+	.skills_part{
+		margin-left: 0;
+		margin-top: 30px;
+	}
+}
